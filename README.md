@@ -1,3 +1,12 @@
+# TODO
+- Implement figma design
+- Implement proper SEO
+- Gather and write out content
+- Implement content
+- Animate header
+- Deploy project
+- Think about how to display information in a more interactive way
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
