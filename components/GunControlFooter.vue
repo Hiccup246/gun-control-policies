@@ -8,6 +8,5 @@
     height: 100px;
     background-color: red;
     width: 100%;
-    border: 10px solid blue;
   }
 </style>
