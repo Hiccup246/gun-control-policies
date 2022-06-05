@@ -2,7 +2,8 @@
   <div class="header">
     <div class="header-content">
       <div class="title">
-          <img src="~/assets/imgs/rifle.svg" alt="Rifle" class="rifle-image" />
+          <img src="~/assets/svgs/rifle.svg" alt="Rifle" class="rifle-image" />
+          <img src="~/assets/imgs/usa.png" alt="Rifle" class="usa-image" />
         <h1 class="title-text">Gun Control Now</h1>
         <div class="bullet-line"></div>
       </div>
@@ -74,5 +75,14 @@
     width: 110px;
     background-color: red;
     position: absolute;
+  }
+
+  .usa-image {
+    width: 50px;
+    right: 12px;
+    top: 36px;
+    object-fit: scale-down;
+    position: absolute;
+    transform: rotate(90deg);
   }
 </style>
