@@ -73,7 +73,7 @@
     padding-right: 20px;
     z-index: 3;
     height: 100%;
-    width: 150px;
+    width: 140px;
     background-color: red;
     position: absolute;
   }
