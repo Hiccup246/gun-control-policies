@@ -33,6 +33,7 @@
   }
 
   .title-text {
+    font-family: 'Oswald', sans-serif;
     margin: 0 auto;
     width: fit-content;
     position: relative;
@@ -45,7 +46,7 @@
   .sub-title {
     margin: 0 auto;
     width: fit-content;
-    font-size: 20px;
+    font-family: 'Tiro Gurmukhi', serif;
   }
 
   .bullet-line {
@@ -72,7 +73,7 @@
     padding-right: 20px;
     z-index: 3;
     height: 100%;
-    width: 110px;
+    width: 150px;
     background-color: red;
     position: absolute;
   }
@@ -80,7 +81,7 @@
   .usa-image {
     width: 50px;
     right: 12px;
-    top: 36px;
+    top: 47px;
     object-fit: scale-down;
     position: absolute;
     transform: rotate(90deg);
