@@ -1,6 +1,6 @@
 <template>
   <div class="policy">
-      <h2 class="policy-header">
+      <h2 class="policy__header">
         {{ name }}
       </h2>
 
@@ -21,7 +21,12 @@
 
 
 <style scoped>
-  .policy-header {
+  .policy {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .policy__header {
     font-family: 'Tiro Gurmukhi', serif;
     margin-bottom: 15px;
     margin-left: auto;
@@ -29,10 +34,5 @@
     padding: 0 30px;
     border-bottom: 2px solid black;
     width: fit-content;
-  }
-
-  .policy {
-    text-align: center;
-    margin-bottom: 100px;
   }
 </style>

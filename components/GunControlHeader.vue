@@ -1,13 +1,13 @@
 <template>
   <div class="header">
-    <div class="header-content">
+    <div class="header__content">
       <div class="title">
           <img src="~/assets/svgs/rifle.svg" alt="Rifle" class="rifle-image" />
           <img src="~/assets/imgs/usa.png" alt="Rifle" class="usa-image" />
-        <h1 class="title-text">Gun Control Now</h1>
-        <div class="bullet-line"></div>
+        <h1 class="title__text">Gun Control Now</h1>
+        <div class="title__bullet-line"></div>
       </div>
-      <h2 class="sub-title">10 Policies To Reduce Gun Violence</h2>
+      <h2 class="title__sub-title">10 Policies To Reduce Gun Violence</h2>
     </div>
   </div>
 </template>
@@ -23,7 +23,7 @@
     justify-content: center;
   }
 
-  .header-content {
+  .header__content {
     height:fit-content;
   }
 
@@ -32,7 +32,7 @@
     position: relative;
   }
 
-  .title-text {
+  .title__text {
     font-family: 'Oswald', sans-serif;
     margin: 0 auto;
     width: fit-content;
@@ -43,13 +43,13 @@
     background-color: red;
   }
 
-  .sub-title {
+  .title__sub-title {
     margin: 0 auto;
     width: fit-content;
     font-family: 'Tiro Gurmukhi', serif;
   }
 
-  .bullet-line {
+  .title__bullet-line {
     position: absolute;
     top: 0;
     left: 0;

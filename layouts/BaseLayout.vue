@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <GunControlHeader />
-    <div class="content">
+    <div class="app__content">
       <slot />
     </div>
     <GunControlFooter />
@@ -17,7 +17,7 @@
 		min-height: 100vh;
   }
 
-  .content {
+  .app__content {
     flex: 1;
 		flex-grow: 1;
 		display: flex;
