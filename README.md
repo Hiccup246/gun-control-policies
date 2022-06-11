@@ -1,9 +1,9 @@
 # TODO
-- Make and implement policy component
-- Split into pages
-- Figure out css scoping
-- Implement mobile design
-- Figure out how to properly do global css
+- ~~Make and implement policy component~~
+- ~~Split into pages~~
+- ~~Figure out css scoping~~
+- ~~Implement mobile design~~
+- ~~Figure out how to properly do global css~~
 - Serve fonts locally instead of linking to google fonts
 - ~~Implement figma design for desktop~~
 - Implement proper SEO with header
