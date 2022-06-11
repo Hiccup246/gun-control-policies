@@ -81,17 +81,32 @@
     transform: rotate(90deg);
   }
 
-  @media (max-wdith: $tablet) {
+  @media screen and (max-width: $tablet) {
     .rifle-image {
       display: none;
     }
   }
 
-  @media (max-wdith: $small-tablet) {
+  @media screen and (max-width: $small-tablet) {
     .rifle-image,
     .title__bullet-line,
     .usa-image {
       display: none;
     }
+  }
+
+  @media screen and (max-width: $large-mobile) {
+    .header {
+      height: auto;
+    }
+    .title__text {
+      font-size: 50px;
+      text-align: center;
+    }
+    .title__sub-title {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+   }
   }
 </style>

@@ -3,7 +3,7 @@
     <Head>
       <Title>Gun Control Policies</Title>
       <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
       <meta name="author" content="James Watt">
       <Meta name="description" content="A site litsting 10 gun control policies" />
       <meta name="keywords" content="Gun Control, Gun Control Policies, Gun, Gun Policies, Gun Violence, Gun Reform">
