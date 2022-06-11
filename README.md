@@ -1,14 +1,15 @@
 # TODO
+- Gather and write out content
+- Implement content
+- Deploy project
+- Think about footer and maybe 3 vertical lines which contain stuff like links to support groups etc
+- Animate header when above small tablet
+- Serve fonts locally instead of linking to google fonts
+- Think about how to display information in a more interactive way
 - ~~Make and implement policy component~~
 - ~~Split into pages~~
 - ~~Figure out css scoping~~
 - ~~Implement mobile design~~
 - ~~Figure out how to properly do global css~~
-- Serve fonts locally instead of linking to google fonts
 - ~~Implement figma design for desktop~~
-- Implement proper SEO with header
-- Gather and write out content
-- Implement content
-- Animate header
-- Deploy project
-- Think about how to display information in a more interactive way
+- ~~Implement proper SEO with header~~
