@@ -9,5 +9,8 @@
   "devDependencies": {
     "@nuxtjs/svg": "^0.4.0",
     "nuxt": "3.0.0-rc.3"
+  },
+  "dependencies": {
+    "sass": "^1.52.3"
   }
 }
