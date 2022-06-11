@@ -12,7 +12,9 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+  @import "@/assets/css/variables.scss";
+
   .header {
     height: 150px;
     background-color: red;
@@ -60,14 +62,6 @@
     z-index: 2;
   }
 
-  .gun-image {
-    margin: 20px 0;
-    height: 100%;
-    width: 100px;
-    background-color: blue;
-    position: absolute;
-  }
-
   .rifle-image {
     margin-left: 20px;
     padding-right: 20px;
@@ -85,5 +79,19 @@
     object-fit: scale-down;
     position: absolute;
     transform: rotate(90deg);
+  }
+
+  @media (max-wdith: $tablet) {
+    .rifle-image {
+      display: none;
+    }
+  }
+
+  @media (max-wdith: $small-tablet) {
+    .rifle-image,
+    .title__bullet-line,
+    .usa-image {
+      display: none;
+    }
   }
 </style>
