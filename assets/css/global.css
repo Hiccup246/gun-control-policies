@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
