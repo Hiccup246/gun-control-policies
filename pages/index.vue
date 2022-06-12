@@ -1,46 +1,57 @@
 <template>
   <div>
     <GunPolicy name="1. End The Gun Show Loophole">
+      <!-- What is the problem -->
+      <!-- What is a possible solution -->
       <p>
-        Gun shows are events dedicated to the display and sale of firearms and firearm-related accessories.
-         Often held at public venues like fairgrounds or civic centers, gun shows operate as temporary, largely
-         unregulated markets for the transfer of firearms. Thousands of people attend the more than 4,000 gun
-         shows held in the United States each year.1 Firearm purchases from gun shows account for 4% to 9% of
-         annual firearm sales,2 and 3% of gun owners report acquiring their most recent firearm from a gun show.
+       The gun show loop hole refers to the fact that federal law does not require background checks
+        on sales from unlicensed sellers including online or at gun shows making it easy for a prohibited person
+        to acquire a gun. Though this federal law applies to many situations outside of gun shows, gun shows are of
+        specific interest as they are popular places to purchase firearms and guns purchased at gun shows are
+        disproportionately used in criminal activity.
       </p>
       <p>
-
+        Ending the gun show loophole can be acheived by specific policy targeting gun show sales or by wider
+        policies such as requiring universal background checks prior to all firearm transfers.
       </p>
-      <a href="https://giffords.org/lawcenter/gun-laws/policy-areas/gun-sales/gun-shows/">Giffords Law Center</a>
+      <!-- <a href="https://giffords.org/lawcenter/gun-laws/policy-areas/gun-sales/gun-shows/">Giffords Law Center</a> -->
     </GunPolicy>
 
     <GunPolicy name="2. Universal Background Checks">
-      <!-- <p>Require essentailly every firearms transactionin the usa to be recorded and go through the national instant criimal background checks system. And that is somtimes called the private sale exemption.</p>
-      <p>They are not required by USA federal law. 22 states and dc for at least some private sales.</p> -->
-
       <p>Federal law requires background checks on all gun sales from licensed firearm dealers to ensure that gun
           buyers do not fall into one of the categories of people prohibited by law from having a gun. But the law
-          does not require background checks on sales from unlicensed sellers, including online or at gun shows—making
-          it easy for a prohibited person to acquire a gun. Federal law also fails to prohibit certain categories of
-          people with particularly dangerous histories, and it does not provide a process through which people who
-          are likely to commit violent acts against themselves or others can be blocked from having access to guns.
+          does not require background checks on sales from unlicensed sellers, including online or private sales
+          making it easy for a prohibited person to acquire a gun.
       </p>
 
-      <p>Any comprehensive gun violence prevention strategy must start with background checks on all gun sales and
-          build upon them to close other existing loopholes that enable prohibited people to access guns, including
-          the one that allows a gun sale to proceed if a background check isn’t completed within three business days
-          and addressing the rising threat of ghost guns. For more information check out <a href="https://giffords.org/lawcenter/gun-laws/policy-areas/background-checks/universal-background-checks/">Giffords Law Center</a>
-          or <a href="https://www.everytown.org/what-is-the-background-check-loophole/">Everytown For Gun Safety</a>
+      <p>
+        Implementing universal background checks would require the implementation of federal law which would require
+        background checks for all firearm transactions.
       </p>
+      <!-- <p>
+        For more information check out <a href="https://giffords.org/lawcenter/gun-laws/policy-areas/background-checks/universal-background-checks/">Giffords Law Center</a>
+         or <a href="https://www.everytown.org/what-is-the-background-check-loophole/">Everytown For Gun Safety</a>
+      </p> -->
     </GunPolicy>
 
     <GunPolicy name="3. Increase Mandatory Waiting Periods">
-      <p>I want the gun, to the time when you get the gun.</p>
-      <p></p>
+      <!-- https://www.aap.org/en/advocacy/state-advocacy/waiting-periods-for-firearms-purchases/ -->
+      <p>
+        Under current federal law, there is no waiting period (time between when you want the gun and when you get it)
+         requirement for the purchase of guns. Introducing waiting period laws give law enforcement additional time to perform an accurate background
+         check and create a “cooling off” period to prevent acts of violence or suicide attempts.
+      </p>
     </GunPolicy>
 
     <GunPolicy name="4. Age Restrict High Capacity Firearms">
-      <p>Single action firearms and handguns at 18 I guess. But wait until 25 for high capactiy weapons.</p>
+      <!-- https://www.rand.org/research/gun-policy/analysis/minimum-age.html -->
+      <p>
+        Under federal law, licensed dealers cannot sell or deliver handguns to individuals under age 21 or
+         long guns to those under age 18. This is problematic as firearm homicides and violent crimes disproportionately
+         involve individuals under age 21, both as perpetrators and as victims. Additionally there is a strong association
+         between firearm availability and suicide. To reduce firearm violence for individuals under 21 law could be introduced
+         to prevent sales of long guns or high calibre rifles to persons aged under 21, similar to that of hand guns.
+      </p>
     </GunPolicy>
 
     <GunPolicy name="5. Mandatory Gun Insurance">
