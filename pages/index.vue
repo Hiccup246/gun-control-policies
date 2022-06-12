@@ -1,9 +1,17 @@
 <template>
   <div>
     <GunPolicy name="1. End The Gun Show Loophole">
-      <p>Fedral law does not prevent unlicenced private sellers</p>
-      <p>Doesn't require unlicenced private sellers. No ferderal law thzt rewuires background checks for gun purchases.</p>
-      <p></p>
+      <p>
+        Gun shows are events dedicated to the display and sale of firearms and firearm-related accessories.
+         Often held at public venues like fairgrounds or civic centers, gun shows operate as temporary, largely
+         unregulated markets for the transfer of firearms. Thousands of people attend the more than 4,000 gun
+         shows held in the United States each year.1 Firearm purchases from gun shows account for 4% to 9% of
+         annual firearm sales,2 and 3% of gun owners report acquiring their most recent firearm from a gun show.
+      </p>
+      <p>
+
+      </p>
+      <a href="https://giffords.org/lawcenter/gun-laws/policy-areas/gun-sales/gun-shows/">Giffords Law Center</a>
     </GunPolicy>
 
     <GunPolicy name="2. Universal Background Checks">
