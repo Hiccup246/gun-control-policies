@@ -13,3 +13,9 @@
 - ~~Figure out how to properly do global css~~
 - ~~Implement figma design for desktop~~
 - ~~Implement proper SEO with header~~
+
+# Gun control policies
+The purpose of this website is to provide a simple overview of 10 gun control policies to
+spur curiosty and serve as an approachable on-ramp to more information.
+
+Hopefully by summarising key information and collating links to gun control advocacy groups and initiatives this website contributes, in some small way, to the reduction of gun violence in America.
