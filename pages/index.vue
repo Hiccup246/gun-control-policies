@@ -7,8 +7,23 @@
     </GunPolicy>
 
     <GunPolicy name="2. Universal Background Checks">
-      <p>Require essentailly every firearms transactionin the usa to be recorded and go through the national instant criimal background checks system. And that is somtimes called the private sale exemption.</p>
-      <p>They are not required by USA federal law. 22 states and dc for at least some private sales.</p>
+      <!-- <p>Require essentailly every firearms transactionin the usa to be recorded and go through the national instant criimal background checks system. And that is somtimes called the private sale exemption.</p>
+      <p>They are not required by USA federal law. 22 states and dc for at least some private sales.</p> -->
+
+      <p>Federal law requires background checks on all gun sales from licensed firearm dealers to ensure that gun
+          buyers do not fall into one of the categories of people prohibited by law from having a gun. But the law
+          does not require background checks on sales from unlicensed sellers, including online or at gun shows—making
+          it easy for a prohibited person to acquire a gun. Federal law also fails to prohibit certain categories of
+          people with particularly dangerous histories, and it does not provide a process through which people who
+          are likely to commit violent acts against themselves or others can be blocked from having access to guns.
+      </p>
+
+      <p>Any comprehensive gun violence prevention strategy must start with background checks on all gun sales and
+          build upon them to close other existing loopholes that enable prohibited people to access guns, including
+          the one that allows a gun sale to proceed if a background check isn’t completed within three business days
+          and addressing the rising threat of ghost guns. For more information check out <a href="https://giffords.org/lawcenter/gun-laws/policy-areas/background-checks/universal-background-checks/">Giffords Law Center</a>
+          or <a href="https://www.everytown.org/what-is-the-background-check-loophole/">Everytown For Gun Safety</a>
+      </p>
     </GunPolicy>
 
     <GunPolicy name="3. Increase Mandatory Waiting Periods">
