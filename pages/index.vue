@@ -11,32 +11,32 @@
       <p>They are not required by USA federal law. 22 states and dc for at least some private sales.</p>
     </GunPolicy>
 
-    <GunPolicy name="3. Incease Madatory Waiting Periods">
+    <GunPolicy name="3. Increase Mandatory Waiting Periods">
       <p>I want the gun, to the time when you get the gun.</p>
       <p></p>
     </GunPolicy>
 
-    <GunPolicy name="4. No High Capactity Weapons Under Age 25">
+    <GunPolicy name="4. Age Restrict High Capacity Firearms">
       <p>Single action firearms and handguns at 18 I guess. But wait until 25 for high capactiy weapons.</p>
     </GunPolicy>
 
-    <GunPolicy name="5. Madatory Gun Insurance">
+    <GunPolicy name="5. Mandatory Gun Insurance">
       <p>Maybe even more expensive without co signing if you are under 25</p>
     </GunPolicy>
 
-    <GunPolicy name="6. Required Community Support Letters for under 25">
+    <GunPolicy name="6. Mandatory Community Support Letters">
       <p>You gotta have like 2 or 3 references for a job, you need 2 or 3 references from people over age 25</p>
     </GunPolicy>
 
-    <GunPolicy name="7. Ban Some Weapons">
+    <GunPolicy name="7. Extend The List of Banned Firearms">
       <p>Expand ban list. Simple some that are of no real value expcept as mass killing machines</p>
     </GunPolicy>
 
-    <GunPolicy name="8. Periodic Mental Health Evaluation">
+    <GunPolicy name="8. Periodic Mental Health Evaluations">
       <p>Including when you first buy the firearm</p>
     </GunPolicy>
 
-    <GunPolicy name="9. Extensive Licenceing Process">
+    <GunPolicy name="9. Extensive Licencing Process">
       <p>Written and practical test for a drivers licence</p>
       <p>It should be the same for guns.</p>
       <p>The licenceing and training period should not be 1 weekend. It should be longer like with cars</p>
