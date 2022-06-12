@@ -75,7 +75,7 @@
   .usa-image {
     width: 50px;
     right: 12px;
-    top: 47px;
+    top: 40px;
     object-fit: scale-down;
     position: absolute;
     transform: rotate(90deg);
