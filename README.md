@@ -4,8 +4,10 @@ spur curiosty and serve as an approachable on-ramp to more information.
 
 Hopefully by summarising key information and collating links to gun control advocacy groups and initiatives this website contributes, in some small way, to the reduction of gun violence in America.
 
+The site can be accessed by heading to [guncontrolpolicies.com](guncontrolpolicies.com) or [commonsenseguncontrols.com](commonsenseguncontrols.com)
+
 # TODO
-- Deploy project
+- Deploy project using netlify
 - Think about footer and maybe 3 vertical lines which contain stuff like links to support groups etc
 - Animate header when screen size is above small tablet
 - Serve fonts locally instead of linking to google fonts

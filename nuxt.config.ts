@@ -6,4 +6,5 @@ export default defineNuxtConfig({
     // SCSS file in the project
     "@/assets/css/main.scss",
   ],
+  target: "static",
 });
