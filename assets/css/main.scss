@@ -6,6 +6,12 @@ body {
   box-sizing: border-box;
 }
 
-p {
+p,
+a,
+li {
   font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  margin-top: 10px;
 }

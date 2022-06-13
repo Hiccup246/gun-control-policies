@@ -1,8 +1,7 @@
 <template>
   <div>
     <GunPolicy name="1. End The Gun Show Loophole">
-      <!-- What is the problem -->
-      <!-- What is a possible solution -->
+      <!-- https://giffords.org/lawcenter/gun-laws/policy-areas/gun-sales/gun-shows/ -->
       <p>
        The gun show loop hole refers to the fact that federal law does not require background checks
         on sales from unlicensed sellers including online or at gun shows making it easy for a prohibited person
@@ -14,10 +13,11 @@
         Ending the gun show loophole can be acheived by specific policy targeting gun show sales or by wider
         policies such as requiring universal background checks prior to all firearm transfers.
       </p>
-      <!-- <a href="https://giffords.org/lawcenter/gun-laws/policy-areas/gun-sales/gun-shows/">Giffords Law Center</a> -->
     </GunPolicy>
 
     <GunPolicy name="2. Universal Background Checks">
+      <!-- https://giffords.org/lawcenter/gun-laws/policy-areas/background-checks/universal-background-checks/
+      https://www.everytown.org/what-is-the-background-check-loophole/ -->
       <p>Federal law requires background checks on all gun sales from licensed firearm dealers to ensure that gun
           buyers do not fall into one of the categories of people prohibited by law from having a gun. But the law
           does not require background checks on sales from unlicensed sellers, including online or private sales
@@ -28,10 +28,6 @@
         Implementing universal background checks would require the implementation of federal law which would require
         background checks for all firearm transactions.
       </p>
-      <!-- <p>
-        For more information check out <a href="https://giffords.org/lawcenter/gun-laws/policy-areas/background-checks/universal-background-checks/">Giffords Law Center</a>
-         or <a href="https://www.everytown.org/what-is-the-background-check-loophole/">Everytown For Gun Safety</a>
-      </p> -->
     </GunPolicy>
 
     <GunPolicy name="3. Increase Mandatory Waiting Periods">
@@ -75,17 +71,14 @@
     </GunPolicy>
 
     <GunPolicy name="7. Extend The List of Banned Firearms">
-      <p>Expand ban list. Simple some that are of no real value expcept as mass killing machines</p>
       <p>
-        The second amendmant of the United States constitutuion has always had limits as its not legal to own
-        mortars, nuclear bombs, tanks or anti air misseld. Some firearms serve only the purpose of acting as killing
-        machines such as the AR-15. By adding these weapons to the list of banned firearms it limits the amount of violence
-        people can commit against each other.
+        Its not legal to own mortars, nuclear bombs, tanks or anti air missels. Some firearms serve only the
+        purpose of acting as killing machines such as the AR-15. By adding these weapons to the list of
+        banned firearms it limits the amount of violence people can commit against each other.
       </p>
     </GunPolicy>
 
     <GunPolicy name="8. Mental Health Evaluations">
-      <!-- <p>Including when you first buy the firearm</p> -->
       <p>
         Introducing mandatory mental health evaluations for all firearm purchases at a federal level
         would help to decrease the amount of mentally unstable people who own firearms. These health evaluations
@@ -103,17 +96,44 @@
         and pass both practical and theoretical tests. This would help increase the amount responsible gun owners
         leading to less accidents and gun violence.
       </p>
-
-      <!-- <p>The licenceing and training period should not be 1 weekend. It should be longer like with cars</p> -->
     </GunPolicy>
 
     <GunPolicy name="10. Gun Buyback Program">
-      <!-- <p>Make the off ramp for lots of people easier</p> -->
       <p>
-        A gun buy back program is a government program which pays gun owners for their firearms. Merely having an optional
-        gun buy back program makes it easier for gun owners to hand over unwanted guns thereby decreasing total gun
-        ownership and the risk of gun violence.
+        A gun buy back program is a government program which pays gun owners for their firearms without any risk of
+        prosecution. Merely having an optional gun buy back program makes it easier for gun owners to hand over
+        unwanted guns thereby decreasing total gun ownership and the risk of gun violence.
       </p>
     </GunPolicy>
+
+    <div>
+      <p>
+        Though not a exhaustive or comprehensive list of gun control policies we hope the list has
+        made you think more deeply about what can be done to reduce gun violence and spurred your curiosity.
+        If you want to further your understand or take action in reducing gun violence
+        you can check out the following reasources where the information of this site was sourced from:
+      </p>
+
+      <ul>
+        <li>
+          <a href="https://www.everytown.org/">Everytown for gun safety</a> is the largest gun violence prevention orgnisation in America.
+        </li>
+        <li>
+          <a href="https://giffords.org/">Giffords law center to prevent gun violence</a> is fighting to end the gun lobby’s stranglehold on our political system.
+        </li>
+        <li>
+          <a href="https://www.sandyhookpromise.org/">Sandy Hook Promise</a> is protecting America’s children from gun violence in honor of the precious lives that were lost at Sandy Hook Elementary School.
+        </li>
+         <li>
+          <a href="https://www.bradyunited.org/">The Brady Campaign</a> is an American nonprofit organization that advocates for gun control and against gun violence.
+        </li>
+        <li>
+          <a href="https://publichealth.jhu.edu/departments/health-policy-and-management/research-and-practice/center-for-gun-violence-solutions"> John Hopkins center for gun violence solutions</a> conducts rigorous research and use advocacy to implement evidence-based, equitable policies and programs that will prevent gun violence in our communities.
+        </li>
+        <li>
+          <a href="https://supgv.org/">States United To Prevent Gun Violence</a> is unique in its commitment to independent state organizations, providing our 33 state affiliate affiliates with strategic support, operational backup, and opportunities for connection
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
