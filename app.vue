@@ -19,3 +19,18 @@
     </NuxtLayout>
   </div>
 </template>
+
+<script setup>
+  useHead({
+    script: [
+      {
+        //<!-- Global site tag (gtag.js) - Google Analytics -->
+        src: "https://www.googletagmanager.com/gtag/js?id=G-SPMP6XEW4B",
+        async: true,
+      },
+      {
+        src: "ga.js",
+      },
+    ]
+  })
+</script>
