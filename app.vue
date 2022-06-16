@@ -22,6 +22,9 @@
 
 <script setup>
   useHead({
+    htmlAttrs: {
+      lang: 'en',
+    },
     script: [
       {
         //<!-- Global site tag (gtag.js) - Google Analytics -->
