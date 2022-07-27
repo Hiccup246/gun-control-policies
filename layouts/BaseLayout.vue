@@ -24,7 +24,6 @@
 		flex-direction: column;
 		max-width: 1000px;
 		width: 100%;
-    /* background-color: #FFF0EE; */
 		padding: 30px 16px;
   }
 </style>
