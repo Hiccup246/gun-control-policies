@@ -1,6 +1,6 @@
 # 🇺🇸 [Gun control policies](https://www.guncontrolpolicies.com/)
 ![](https://img.shields.io/github/license/Hiccup246/gun-control-policies)
-![](https://img.shields.io/github/issues/Hiccup246/gun-control-policies)
+![](https://img.shields.io/github/languages/code-size/Hiccup246/gun-control-policies)
 ![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=gun-control-policies)
 
 ![](https://i.imgur.com/Ovik1jJ.png)
