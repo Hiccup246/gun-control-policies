@@ -26,6 +26,7 @@
     margin: 0 auto;
     padding: 0;
     border: 3px solid white;
+    cursor: pointer;
   }
 
   .footer__created-by-text {
