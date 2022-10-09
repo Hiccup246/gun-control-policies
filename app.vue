@@ -34,6 +34,10 @@
       {
         src: "ga.js",
       },
+      {
+        src: "https://unpkg.com/james-watt-calling-card/index.js",
+        type: "module"
+      }
     ]
   })
 </script>

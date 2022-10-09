@@ -7,4 +7,9 @@ export default defineNuxtConfig({
     "@/assets/css/main.scss",
   ],
   target: "static",
+  vue: {
+    compilerOptions: {
+      isCustomElement: tag => ['james-watt-calling-card'].includes(tag)
+    }
+  }
 });
