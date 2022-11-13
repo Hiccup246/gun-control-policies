@@ -1,3 +1,28 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../assets/fonts/OpenSans-Regular.ttf") format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tiro Gurmukhi';
+  src: url("../assets/fonts/TiroGurmukhi-Regular.ttf") format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("../assets/fonts/Oswald-Bold.ttf") format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 body {
   margin: 0;
 }

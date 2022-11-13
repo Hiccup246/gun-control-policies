@@ -15,5 +15,5 @@ export default defineNuxtConfig({
   publicRuntimeConfig: {
     UMAMI_WEBSITE_ID: process.env.UMAMI_WEBSITE_ID,
     UMAMI_WEBSITE_URL: process.env.UMAMI_WEBSITE_URL
-},
+  },
 });
