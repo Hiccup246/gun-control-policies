@@ -11,5 +11,9 @@ export default defineNuxtConfig({
     compilerOptions: {
       isCustomElement: tag => ['james-watt-calling-card'].includes(tag)
     }
-  }
+  },
+  publicRuntimeConfig: {
+    UMAMI_WEBSITE_ID: process.env.UMAMI_WEBSITE_ID,
+    UMAMI_WEBSITE_URL: process.env.UMAMI_WEBSITE_URL
+},
 });

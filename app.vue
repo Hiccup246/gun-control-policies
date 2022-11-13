@@ -21,6 +21,8 @@
 </template>
 
 <script setup>
+  const config = useRuntimeConfig();
+
   useHead({
     htmlAttrs: {
       lang: 'en',
@@ -28,8 +30,8 @@
     script: [
       {
         //<!-- Umami Analytics -->
-        "data-website-id": process.env.UMAMI_WEBSITE_ID,
-        src: process.env.UMAMI_WEBSITE_URL,
+        "data-website-id": config.UMAMI_WEBSITE_ID,
+        src: config.UMAMI_WEBSITE_URL,
         async: true,
         defer: true
       },
