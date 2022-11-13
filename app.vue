@@ -27,12 +27,11 @@
     },
     script: [
       {
-        //<!-- Global site tag (gtag.js) - Google Analytics -->
-        src: "https://www.googletagmanager.com/gtag/js?id=G-SPMP6XEW4B",
+        //<!-- Umami Analytics -->
+        "data-website-id": process.env.UMAMI_WEBSITE_ID,
+        src: process.env.UMAMI_WEBSITE_URL,
         async: true,
-      },
-      {
-        src: "ga.js",
+        defer: true
       },
       {
         src: "https://unpkg.com/james-watt-calling-card/index.js",
