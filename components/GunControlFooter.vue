@@ -21,17 +21,16 @@
   }
 
   .footer__created-by-button {
-    background-color: white;
     width: fit-content;
     margin: 0 auto;
     padding: 0;
-    border: 3px solid white;
+    border: none;
     cursor: pointer;
   }
 
   .footer__created-by-text {
     margin: 0;
-    font-size: small;
+    font-size: medium;
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -40,8 +39,8 @@
     font-weight: bold;
   }
 
-  .footer__created-by-button:hover > .footer__created-by-text {
-    opacity: 0.7;
+  .footer__created-by-text:hover {
+    text-decoration: underline;
   }
 
   james-watt-calling-card {
