@@ -2,13 +2,21 @@
   <div>
     <Head>
       <Title>Gun Control Policies</Title>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-      <meta name="author" content="James Watt">
-      <Meta name="description" content="A site litsting 10 gun control policies" />
-      <meta name="keywords" content="Gun Control, Gun Control Policies, Gun, Gun Policies, Gun Violence, Gun Reform">
-	    <link rel="canonical" href="https://www.guncontrolpolicies.com/">
-      <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+      <Meta charset="utf-8" />
+      <Meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" />
+      <Meta name="author" content="James Watt" />
+      <Meta name="description" content="A site listing 10 gun control policies" />
+      <Meta name="keywords" content="Gun Control Policies, A list of gun control policies, Gun Reform, Gun Buy Back, Gun Insurance" />
+      <Meta name="robots" content="index, follow" />
+
+      <Link rel="icon" href="/favicon.ico" />
+      <Link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <Link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <Link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      <Link rel="manifest" href="/site.webmanifest" />
+      <Link rel="canonical" href="https://www.guncontrolpolicies.com/" />
+		  <Link href="https://www.guncontrolpolicies.com/" rel="publisher" />
     </Head>
 
     <NuxtLayout name="base-layout">
@@ -34,7 +42,8 @@
       },
       {
         src: "https://unpkg.com/james-watt-calling-card/index.js",
-        type: "module"
+        type: "module",
+        defer: true
       }
     ]
   })

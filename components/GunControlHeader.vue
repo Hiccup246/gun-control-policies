@@ -3,7 +3,7 @@
     <div class="header__content">
       <div class="title">
           <img src="~/assets/svgs/rifle.svg" alt="Rifle" class="rifle-image" />
-          <img src="~/assets/imgs/usa.png" alt="Rifle" class="usa-image" />
+          <img src="~/assets/imgs/usa.webp" alt="Rifle" class="usa-image" />
         <h1 class="title__text">Gun Control Now</h1>
         <div class="title__bullet-line"></div>
       </div>

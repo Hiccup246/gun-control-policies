@@ -1,4 +1,19 @@
 <template>
+  <Head>
+    <Meta property="og:title" content="Gun Control Policies" />
+    <Meta property="og:type" content="website" />
+    <Meta property="og:image" :content="SiteScreenShot" />
+    <Meta property="og:url" content="https://www.guncontrolpolicies.com" />
+    <Meta property="og:description" content="10 Gun Control Policies" />
+    <Meta property="og:site_name" content="Gun Control Policies" />
+    
+    <Meta name="twitter:card" content="summary_large_image" />
+    <Meta name="twitter:image" :content="SiteScreenShot" />
+    <Meta name="twitter:image:alt" content="A picture of the gun control policies website" />
+    <Meta name="twitter:title" content="Gun Control Policies" />
+    <Meta name="twitter:creator" content="@jameswattnz" />
+  </Head>
+
   <div>
     <GunPolicy name="1. End The Gun Show Loophole">
       <!-- https://giffords.org/lawcenter/gun-laws/policy-areas/gun-sales/gun-shows/ -->
@@ -140,3 +155,7 @@
     </div>
   </div>
 </template>
+
+<script setup>
+  import SiteScreenShot from "~/assets/imgs/site-screenshot.webp";
+</script>
