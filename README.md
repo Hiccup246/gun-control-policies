@@ -28,3 +28,4 @@ After cloning this repository, make sure to have node installed and then navigat
 - Add sources to the information directly like acidemic papers do
 - Update project to use Nuxt 3
 - Add linter
+- Store readme assets in github and reference via raw content
