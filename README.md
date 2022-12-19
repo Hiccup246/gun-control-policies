@@ -24,6 +24,7 @@ After cloning this repository, make sure to have node installed and then navigat
 # Futrue Improvements
 - Upgrade the footer to contain links to social media gun control accounts and direct donation buttons
 - Animate header when screen size is above small tablet (the gun "shoots" the bullet across the page)
-- Serve fonts locally instead of importing google fonts
 - Think about how to display information in a more interactive way
 - Add sources to the information directly like acidemic papers do
+- Update project to use Nuxt 3
+- Add linter
