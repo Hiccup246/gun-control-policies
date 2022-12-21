@@ -3,8 +3,6 @@
     <Head>
       <Title>Gun Control Policies</Title>
 
-      <Meta charset="utf-8" />
-      <Meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" />
       <Meta name="author" content="James Watt" />
       <Meta name="description" content="A site listing 10 gun control policies" />
       <Meta name="keywords" content="Gun Control Policies, A list of gun control policies, Gun Reform, Gun Buy Back, Gun Insurance" />
@@ -16,35 +14,60 @@
       <Link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <Link rel="manifest" href="/site.webmanifest" />
       <Link rel="canonical" href="https://www.guncontrolpolicies.com/" />
-		  <Link href="https://www.guncontrolpolicies.com/" rel="publisher" />
+      <Link href="https://www.guncontrolpolicies.com/" rel="publisher" />
     </Head>
 
-    <NuxtLayout name="base-layout">
-      <NuxtPage />
-    </NuxtLayout>
+    <div class="app">
+      <GunControlHeader />
+
+      <div class="app__content">
+        <NuxtPage />
+      </div>
+
+      <GunControlFooter />
+    </div>
   </div>
 </template>
 
 <script setup>
-  const config = useRuntimeConfig();
+const config = useRuntimeConfig();
 
-  useHead({
-    htmlAttrs: {
-      lang: 'en',
+useHead({
+  htmlAttrs: {
+    lang: "en"
+  },
+  script: [
+    {
+      // <!-- Umami Analytics -->
+      "data-website-id": config.UMAMI_WEBSITE_ID,
+      src: config.UMAMI_WEBSITE_URL,
+      async: true,
+      defer: true
     },
-    script: [
-      {
-        //<!-- Umami Analytics -->
-        "data-website-id": config.UMAMI_WEBSITE_ID,
-        src: config.UMAMI_WEBSITE_URL,
-        async: true,
-        defer: true
-      },
-      {
-        src: "https://unpkg.com/james-watt-calling-card/index.js",
-        type: "module",
-        defer: true
-      }
-    ]
-  })
+    {
+      src: "https://unpkg.com/james-watt-calling-card/index.js",
+      type: "module",
+      defer: true
+    }
+  ]
+});
 </script>
+
+<style scoped>
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app__content {
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  width: 100%;
+  padding: 30px 16px;
+}
+</style>

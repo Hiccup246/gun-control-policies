@@ -1,3 +1,10 @@
+:root {
+  --tablet: 790px;
+  --small-tablet: 650px;
+  --smaller-tablet: 575px;
+  --large-mobile: 540px;
+}
+
 @font-face {
   font-family: 'Open Sans';
   src: url("../fonts/OpenSans-Regular.woff") format('woff');

@@ -2,19 +2,25 @@
   <div class="header">
     <div class="header__content">
       <div class="title">
-          <img src="~/assets/svgs/rifle.svg" alt="Rifle" class="rifle-image" />
-          <img src="~/assets/imgs/usa.webp" alt="Rifle" class="usa-image" />
-        <h1 class="title__text">Gun Control Now</h1>
-        <div class="title__bullet-line"></div>
+        <img src="~/assets/svgs/rifle.svg" alt="Rifle" class="rifle-image">
+
+        <img src="~/assets/imgs/usa.webp" alt="USA Flag" class="usa-image">
+
+        <h1 class="title__text">
+          Gun Control Now
+        </h1>
+
+        <div class="title__bullet-line" />
       </div>
-      <h2 class="title__sub-title">10 Policies To Reduce Gun Violence</h2>
+
+      <h2 class="title__sub-title">
+        10 Policies To Reduce Gun Violence
+      </h2>
     </div>
   </div>
 </template>
 
-<style lang="scss" scoped>
-  @import "@/assets/css/variables.scss";
-
+<style scoped>
   .header {
     height: 150px;
     background-color: red;
@@ -81,20 +87,20 @@
     transform: rotate(90deg);
   }
 
-  @media screen and (max-width: $tablet) and (min-width: $small-tablet) {
+  @media screen and (max-width: 790px) and (min-width: 650px) {
     .rifle-image {
       display: none;
     }
   }
 
-   @media screen and (max-width: $small-tablet) and (min-width: $smaller-tablet) {
+   @media screen and (max-width: 650px) and (min-width: 575px) {
     .rifle-image,
     .usa-image {
       display: none;
     }
   }
 
-  @media screen and (max-width: $smaller-tablet) and (min-width: $large-mobile) {
+  @media screen and (max-width: 575px) and (min-width: 540px) {
     .rifle-image,
     .title__bullet-line,
     .usa-image {
@@ -102,7 +108,7 @@
     }
   }
 
-  @media screen and (max-width: $large-mobile) {
+  @media screen and (max-width: 540px) {
     .rifle-image,
     .title__bullet-line,
     .usa-image {

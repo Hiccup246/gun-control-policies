@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://guncontrolpolicies.com/sitemap.xml
-Host: https://guncontrolpolicies.com/sitemap.xml
+Host: https://guncontrolpolicies.com

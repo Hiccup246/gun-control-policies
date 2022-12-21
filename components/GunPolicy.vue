@@ -1,24 +1,23 @@
 <template>
   <div class="policy">
-      <h2 class="policy__header">
-        {{ name }}
-      </h2>
+    <h2 class="policy__header">
+      {{ name }}
+    </h2>
 
-      <slot />
+    <slot />
   </div>
 </template>
 
 <script>
-  export default {
+export default {
   props: {
-    name: String
-  },
-  setup(props) {
-    console.log(props.name)
+    name: {
+      required: true,
+      type: String
+    }
   }
-}
+};
 </script>
-
 
 <style scoped>
   .policy {
