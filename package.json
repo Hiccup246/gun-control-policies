@@ -1,4 +1,21 @@
 {
+  "name": "guncontrolpolicies.com",
+  "description": "A site listing 10 gun control policies",
+  "version": "0.1.0",
+  "author": "James Watt",
+  "homepage": "https://www.guncontrolpolicies.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hiccup246/gun-control-policies"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@7.18.1",
+  "keywords": [
+    "nuxt",
+    "nuxt 3",
+    "vue",
+    "typescript"
+  ],
   "private": true,
   "scripts": {
     "build": "nuxt build",
