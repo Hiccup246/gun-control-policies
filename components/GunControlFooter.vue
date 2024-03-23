@@ -2,9 +2,7 @@
   <div class="footer">
     <james-watt-calling-card modal-bg-color="white">
       <button class="footer__created-by-button">
-        <p class="footer__created-by-text">
-          Created by James Watt
-        </p>
+        Created by James Watt
       </button>
     </james-watt-calling-card>
   </div>
@@ -26,6 +24,11 @@
     padding: 0;
     border: none;
     cursor: pointer;
+    font-size: medium;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
   }
 
   .footer__created-by-text {
@@ -39,7 +42,7 @@
     font-weight: bold;
   }
 
-  .footer__created-by-text:hover {
+  .footer__created-by-button:hover {
     text-decoration: underline;
   }
 

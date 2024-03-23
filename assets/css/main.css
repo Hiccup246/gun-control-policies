@@ -40,7 +40,8 @@ body {
 
 p,
 a,
-li {
+li,
+button {
   font-family: 'Open Sans', sans-serif;
 }
 

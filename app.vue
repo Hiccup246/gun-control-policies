@@ -47,7 +47,6 @@ useHead({
     {
       src: "https://unpkg.com/james-watt-calling-card/index.js",
       type: "module",
-      defer: true
     }
   ]
 });
