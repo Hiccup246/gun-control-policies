@@ -30,7 +30,9 @@
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.37.0",
     "nuxt": "^3.3.3",
-    "nuxt-svgo": "^4.0.0",
     "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.30"
   }
 }

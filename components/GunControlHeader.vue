@@ -2,10 +2,9 @@
   <div class="header">
     <div class="header__content">
       <div class="title">
-        <img src="~/assets/svgs/rifle.svg" alt="Rifle" class="rifle-image">
+        <img src="/rifle.svg" alt="Rifle" class="rifle-image">
 
-        <img src="~/assets/imgs/usa.webp" alt="USA Flag" class="usa-image">
-
+        <img src="/usa.webp" alt="USA Flag" class="usa-image">
         <h1 class="title__text">
           Gun Control Now
         </h1>

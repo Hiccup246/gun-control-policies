@@ -165,5 +165,5 @@
 </template>
 
 <script setup>
-import SiteScreenShot from "~/assets/imgs/site-screenshot.webp";
+import SiteScreenShot from "/site-screenshot.webp";
 </script>
