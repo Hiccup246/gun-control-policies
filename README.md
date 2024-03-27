@@ -3,7 +3,7 @@
 ![](https://img.shields.io/github/languages/code-size/Hiccup246/gun-control-policies)
 ![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=gun-control-policies)
 
-![](https://raw.githubusercontent.com/Hiccup246/gun-control-policies/main/assets/imgs/site-screenshot.webp)
+![](https://raw.githubusercontent.com/Hiccup246/gun-control-policies/main/public/site-screenshot.webp)
 
 # Description
 The motivation for this project was to learn about Nuxt 3 and to raise awareness about possible gun control policies. The site was is mobile friendly and designed in [Figma](https://www.figma.com/), built in [Nuxt 3](https://nuxt.com) and deployed using [Vercel](https://vercel.com/).
