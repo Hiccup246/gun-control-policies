@@ -163,7 +163,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import SiteScreenShot from "/site-screenshot.webp";
-</script>
