@@ -39,8 +39,8 @@ useHead({
   script: [
     {
       // <!-- Umami Analytics -->
-      "data-website-id": config.UMAMI_WEBSITE_ID,
-      src: config.UMAMI_WEBSITE_URL,
+      "data-website-id": config.public.UMAMI_WEBSITE_ID,
+      src: config.public.UMAMI_WEBSITE_URL,
       async: true,
       defer: true
     },
