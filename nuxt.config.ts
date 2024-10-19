@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: "2024-10-19",
   runtimeConfig: {
     // Keys within public are also exposed client-side
     public: {
