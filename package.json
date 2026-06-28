@@ -28,9 +28,9 @@
     "lint:fix": "eslint --ext .vue,.ts,.js,.mjs . --fix"
   },
   "dependencies": {
-    "nuxt": "^4.1.2",
-    "vue": "^3.5.22",
-    "vue-router": "^4.4.5"
+    "nuxt": "^4.4.8",
+    "vue": "^3.5.39",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.1.0"
